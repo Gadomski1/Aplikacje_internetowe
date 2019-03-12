@@ -1,22 +1,15 @@
-#container {
-    width: 500px;
-    background-color: black;
-    margin: 0 auto;
-}
-#container > div {
-    width: 75%;
-}
-div {
-    background-color: maroon;
-}
-div.first {
-    background-color: aqua;
-}
-div.second {
-    height: 24px;
-    transition: all 0.3s linear;
-}
-div.second:hover {
-    background-color: blue;
-    height: 300px;
-}
+#glowny {
+    display: flex;
+  }
+  #prawy {
+    height: 200 px;
+    width: 50%;
+    background: lightblue;
+
+  }
+  #lewy {
+    flex: 1;
+height: 200 px;
+    background: lightgreen;
+
+  }
